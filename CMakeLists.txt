@@ -20,7 +20,7 @@ endif()
 if (WIN32)
   set(NANOGUI_USE_GLAD_DEFAULT ON)
 else()
-  set(NANOGUI_USE_GLAD_DEFAULT OFF)
+  set(NANOGUI_USE_GLAD_DEFAULT ON)
 endif()
 
 option(NANOGUI_BUILD_EXAMPLE "Build NanoGUI example application?" ON)
